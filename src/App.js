@@ -8,7 +8,7 @@ const App = () =>{
   const [searchResult, setsearchResult] = useState('react');
 
   const newFetch = () =>{
-    fetch(`http://hn.algolia.com/api/v1/search?query=${searchResult}`)
+    fetch(`https://hn.algolia.com/api/v1/search?query=${searchResult}`)
     .then(result => result.json())
     // .then(data => console.log(data))
     // .then(data => console.log('test'))
