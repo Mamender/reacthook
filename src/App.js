@@ -9,7 +9,7 @@ const App = () =>{
 
   const newFetch = () =>{
     let httpGet = window.location.protocol;
-    fetch(`${httpGet}://hn.algolia.com/api/v1/search?query=${searchResult}`)
+    fetch(`${httpGet}//hn.algolia.com/api/v1/search?query=${searchResult}`)
     .then(result => result.json())
     // .then(data => console.log(data))
     // .then(data => console.log('test'))
